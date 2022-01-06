@@ -21,22 +21,113 @@ Console.WriteLine("Testing Begins!");
 string[] test = new string[] { "Chappy", "Chandler", "Chelsy", "David", "Bailey", "Xavier", "Marcus", "Galdino", "Jose", "Bill" };
 string[] returnedTest = UserInputFunction(test, 'c');
 Assert.AreEqual(returnedTest,new string[]{ "Chappy", "Chandler", "Chelsy" });
+Console.WriteLine("Test 1 Passed!");
 
 test = new string[] { "alex", "Alec", "Serena", "Eva", "ayla", "Dylan", "Nyle", "kristina", "Denise", "Cruz", "TrueCoders" };
 returnedTest = UserInputFunction(test, 'a');
 Assert.AreEqual(returnedTest, new string[] { "alex", "Alec", "ayla"});
+Console.WriteLine("Test 2 Passed!");
 
 test = new string[] { "Robin", "Rashad", "jAmEs", "Hannah", "rUby", "riLey", "Michael", "Martin", "rIcKiE" };
 returnedTest = UserInputFunction(test, 'r');
 Assert.AreEqual(returnedTest, new string[] { "Robin", "Rashad", "rUby", "riLey", "rIcKiE" });
+Console.WriteLine("Test 3 Passed!");
 
+test = randomTestString();
+string[] testC = cTestString(test);
+char c = cChar(test);
+returnedTest = UserInputFunction(test, c);
+Assert.AreEqual(returnedTest, testC);
+Console.WriteLine("Randomized Test Passed!");
 
 Console.WriteLine("Testing Completed! Success!");
 //Dont edit above this
 
 string[] UserInputFunction(string[] names, char sLetter)
 {
-    //Code goes here
+    //[] Code goes here [] *******************************************************************
 
     return new string[0];
 }
+
+
+//Dont edit below this
+string[] randomTestString()
+{
+    var rand = new Random();
+    int r = rand.Next(0, 5);
+
+    switch(r){
+        case 0:
+            return new string[] { "theo", "Victor", "Tim", "Anita", "Zack", "Gary", "lewis", "craig", "Luke"};  // 'l'
+        case 1:
+            return new string[] { "Shane", "Muhammad", "rICk", "tanya", "sarah", "rock", "jeff", "saUl", "sEbAsTiAn", "shaun", "ozan", "AdAm", "rock" };    // 's'
+        case 2:
+            return new string[] { "Jared", "mercy", "Jamie", "Ebo", "jeremy", "jared", "jOe", "june", "sai", "Finley" };  // 'j'
+        case 3:
+            return new string[] { "dan", "daniel", "racheal", "travis", "FitnessGram PACER" };    // 'd'
+        case 4:
+            return new string[] { "rOseAnne", "Norm", "Chris", "Emerald", "Greg", "McDonald", "Rip" }; // 'g'
+        case 5:
+            return new string[] { "sArAh", "Rashad", "Im Out of Names", "door", "Slick", "Norman" }; // 's'
+    }
+
+    return new string[0];
+}
+
+char cChar(string[] names)
+{
+    if (names[0] == "theo")
+    {
+        return 'l';
+    }
+    else if (names[0] == "Shane" || names[0] == "sArAh")
+    {
+        return 's';
+    }
+    else if (names[0] == "Jared")
+    {
+        return 'j';
+    }
+    else if (names[0] == "dan")
+    {
+        return 'd';
+    }
+    else if (names[0] == "rOseAnne")
+    {
+        return 'g';
+    }
+
+    return ' ';
+}
+
+string[] cTestString(string[] names)
+{
+    if (names[0] == "theo")
+    {
+        return new string[] { "lewis", "Luke" }; // 'l'
+    }
+    else if (names[0] == "Shane")
+    {
+        return new string[] { "Shane", "sarah", "saUl", "sEbAsTiAn", "shaun" };    // 's'
+    }
+    else if (names[0] == "Jared")
+    {
+        return new string[] { "Jared", "Jamie", "jeremy", "jared", "jOe", "june" };  // 'j'
+    }
+    else if (names[0] == "dan")
+    {
+        return new string[] { "dan", "daniel" };    // 'd'
+    }
+    else if (names[0] == "rOseAnne")
+    {
+        return new string[] { "Greg" }; // 'g'
+    }
+    else if (names[0] == "sArAh")
+    {
+        return new string[] { "sArAh", "Slick" }; // 's'
+    }
+
+    return new string[0];
+}
+//Dont edit above this

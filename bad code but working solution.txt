@@ -8,7 +8,6 @@ int aLength = 1;
         char[] cN = n.ToLower().ToCharArray();
         if (cN[0] == sLetter)
         {
-            Console.WriteLine("Found match");
             tempStr[count] = n;
             count++;
             aLength++;
