@@ -1,0 +1,17 @@
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\bin\Debug\net6.0\StringTest001.exe
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\bin\Debug\net6.0\StringTest001.deps.json
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\bin\Debug\net6.0\StringTest001.runtimeconfig.json
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\bin\Debug\net6.0\StringTest001.dll
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\bin\Debug\net6.0\ref\StringTest001.dll
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\bin\Debug\net6.0\StringTest001.pdb
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\obj\Debug\net6.0\StringTest001.csproj.AssemblyReference.cache
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\obj\Debug\net6.0\StringTest001.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\obj\Debug\net6.0\StringTest001.AssemblyInfoInputs.cache
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\obj\Debug\net6.0\StringTest001.AssemblyInfo.cs
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\obj\Debug\net6.0\StringTest001.csproj.CoreCompileInputs.cache
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\obj\Debug\net6.0\StringTest001.dll
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\obj\Debug\net6.0\ref\StringTest001.dll
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\obj\Debug\net6.0\StringTest001.pdb
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\obj\Debug\net6.0\StringTest001.genruntimeconfig.cache
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\Chappy\source\repos\StringTest001\StringTest001\obj\Debug\net6.0\StringTest001.csproj.CopyComplete

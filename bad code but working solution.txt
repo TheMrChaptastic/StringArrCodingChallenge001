@@ -1,0 +1,24 @@
+int aLength = 1;
+    int count = 0;
+    string[] rStr = new string[aLength];
+    string[] tempStr = new string[aLength];
+
+    foreach (var n in names)
+    {
+        char[] cN = n.ToLower().ToCharArray();
+        if (cN[0] == sLetter)
+        {
+            Console.WriteLine("Found match");
+            tempStr[count] = n;
+            count++;
+            aLength++;
+            rStr = tempStr;
+            tempStr = new string[aLength];
+            for (int i = 0; i < rStr.Length; i++)
+            {
+                tempStr[i] = rStr[i];
+
+            }
+        }
+    }
+    return rStr;
