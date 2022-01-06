@@ -20,24 +20,24 @@ Console.WriteLine("Testing Begins!");
 //Dont edit below this(go to line 38 for your code section)
 string[] test = new string[] { "Chappy", "Chandler", "Chelsy", "David", "Bailey", "Xavier", "Marcus", "Galdino", "Jose", "Bill" };
 string[] returnedTest = UserInputFunction(test, 'c');
-Assert.AreEqual(returnedTest,new string[]{ "Chappy", "Chandler", "Chelsy" });
+Assert.AreEqual(new string[] { "Chappy", "Chandler", "Chelsy" }, returnedTest);
 Console.WriteLine("Test 1 Passed!");
 
 test = new string[] { "alex", "Alec", "Serena", "Eva", "ayla", "Dylan", "Nyle", "kristina", "Denise", "Cruz", "TrueCoders" };
 returnedTest = UserInputFunction(test, 'a');
-Assert.AreEqual(returnedTest, new string[] { "alex", "Alec", "ayla"});
+Assert.AreEqual(new string[] { "alex", "Alec", "ayla" }, returnedTest);
 Console.WriteLine("Test 2 Passed!");
 
 test = new string[] { "Robin", "Rashad", "jAmEs", "Hannah", "rUby", "riLey", "Michael", "Martin", "rIcKiE" };
 returnedTest = UserInputFunction(test, 'r');
-Assert.AreEqual(returnedTest, new string[] { "Robin", "Rashad", "rUby", "riLey", "rIcKiE" });
+Assert.AreEqual( new string[] { "Robin", "Rashad", "rUby", "riLey", "rIcKiE" } , returnedTest);
 Console.WriteLine("Test 3 Passed!");
 
 test = randomTestString();
 string[] testC = cTestString(test);
 char c = cChar(test);
 returnedTest = UserInputFunction(test, c);
-Assert.AreEqual(returnedTest, testC);
+Assert.AreEqual(testC, returnedTest);
 Console.WriteLine("Randomized Test Passed!");
 
 Console.WriteLine("Testing Completed! Success!");
